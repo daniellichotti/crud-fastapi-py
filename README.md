@@ -1,13 +1,13 @@
 # Linux
-#creating virtual env
+## creating virtual env
 python3 -m venv env
-#activating virtual env
+## activating virtual env
 source env/bin/activate
 
-#install requirements
+## install requirements
 pip install -r requirements.txt
 
-#run server
+## run server
 uvicorn main:app --reload
-#run tests
+## run tests
 python3 baterAPI.py
